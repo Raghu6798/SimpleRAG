@@ -39,7 +39,7 @@ llm = HuggingFaceEndpoint(
     huggingfacehub_api_token=hf_api_token
 )
 
-template = """Based on the retrieved context and the user's query, provide a concise and highyly in-depth answer regarding the Indian Interim Union Budget.
+template = """Based on the retrieved context and the user's query, provide a concise and highyly in-depth answer regarding the 2024 6++Indian Interim Union Budget.
 ### Query:
 {query}
 
