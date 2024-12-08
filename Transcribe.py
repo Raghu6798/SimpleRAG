@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 st.set_page_config(page_title="2024 Budget RAG App", layout="wide")
-st.title("2024 Interim Union Budget RAG App")
+st.title("2024 Interim Union Budget RAG App using QwQ-32b")
 
 st.sidebar.header("User Input")
 query = st.sidebar.text_input("Enter your query:")
