@@ -12,8 +12,8 @@ st.title("2024 Interim Union Budget RAG App")
 st.sidebar.header("User Input")
 query = st.sidebar.text_input("Enter your query:")
 
-token = st.secrets("ASTRA_DB_TOKEN")
-hf_api_token = st.secrets("HF_API_TOKEN")
+token = st.secrets["ASTRA_DB_TOKEN"]
+hf_api_token = st.secrets["HF_API_TOKEN"]
 
 model_name = "sentence-transformers/all-mpnet-base-v2"
 hf_embedding = HuggingFaceEmbeddings(
